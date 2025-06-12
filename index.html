@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ONYX EYECARE FOUNDATION">
+    <title>Onyx Eye-Care Foundation</title>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+               <img class="logo" src="images/logo.jpg" alt="Logo" height="100%" width="50px">
+               Onyx Eye-Care Foundation
+            </a>
+            <button class="navbar-toggler" type="button" title="Menu" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span> 
+            </button>
+            <div class="collapse navbar-collapse"  id="navbarNav">
+                <ul class="navbar-nav text-center ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#services">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#outreach">Outreach Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#donate">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Restoring Sight, Transforming Lives</h1>
+            <p class="lead mb-5 fw-bold">Providing free eye care services to underserved communities in Nigeria</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#donate" class="support btn btn-light btn-lg px-4">Support Our Cause</a>
+                <a href="#contact" class="suport btn btn-outline-light btn-lg px-4">Become a Volunteer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title">About Onyx Eye-Care Foundation</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Our Story</h3>
+                            <p>Registered with CAC number: <strong>46241</strong>, Onyx Eye-Care Foundation was established by <strong>Dr. Gemma Oluchi Henry-Ibe</strong> to address the critical need for accessible eye care services in rural Nigeria.</p>
+                            <p>In Nigeria, health insurance policies primarily benefit government employees, leaving millions without access to basic eye care. Poverty and lack of awareness lead to preventable blindness that affects quality of life and economic productivity.</p>
+                            <p>Our mission is to make primary eye-care services available to rural communities, providing free eye treatments and surgeries to those who cannot afford them.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="images/eyecheck2.jpg" class="d-block w-100" alt="Eye examination">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/outreach1.jpg" class="d-block w-100" alt="Community outreach">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/eyecheck3.jpg" class="d-block w-100" alt="Surgery procedure">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!-- video section -->
+            <div class="video-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 mb-4 mb-lg-0">
+                            <h3 class="video-title">Watch Our Story</h3>
+                            <p class="video-description">
+                                This video showcases our mission to restore sight and transform lives in rural commmunities.
+                                See firsthand how your support makes a difference in fighting preventable blindness.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-play-circle text-primary me-3" style="font-size: 2rem;"></i>
+                                <div>
+                                    <h1 class="mb-0">Our Mission in Action</h1>
+                                    <small class="text-muted">2:51 min</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-mb-4 mb-4 video-container">
+                            <video controls poster="assets/images/video-poster.jpg">
+                                <source src="images/eyecare.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+       <div class="row mt-4">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 mission-card">
+                    <div class="card-body">
+                        <h2 class="card-title"><i class="fas fa-bullseye text-primary me-2"></i>Our Mission</h2>
+                        <p class="card-text">To eliminate preventable blindness in rural Nigeria by providing free, high-quality eye care services to those who cannot afford them.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 mission-card">
+                    <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-chart-line text-primary me-2"></i>Our Impact</h3>
+                        <p class="card-text">Over <strong>2,000 cataract extractions</strong> performed in <strong>15 years</strong> across <strong>8 states</strong>, with thousands more awaiting treatment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 mission-card">
+                    <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-eye text-primary me-2"></i>Our Vision</h3>
+                        <p class="card-text">To establish a world-class eye center providing affordable care and serving as a referral hub for our rural outreach programs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Comprehensive Eye Care</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="fas fa-check text-primary me-2"></i> Free eye examinations and treatments</li>
+                                <li class="list-group-item"><i class="fas fa-check text-primary me-2"></i> Cataract surgeries (over 2,000 performed)</li>
+                                <li class="list-group-item"><i class="fas fa-check text-primary me-2"></i> Pterygium eye surgeries</li>
+                                <li class="list-group-item"><i class="fas fa-check text-primary me-2"></i> Distribution of prescription glasses</li>
+                                <li class="list-group-item"><i class="fas fa-check text-primary me-2"></i> Treatment for diabetic eye conditions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Community Programs</h3>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><i class="fas fa-check text-primary me-2"></i> Eye health education and awareness</li>
+                                <li class="list-group-item"><i class="fas fa-check text-primary me-2"></i> School eye health programs</li>
+                                <li class="list-group-item"><i class="fas fa-check text-primary me-2"></i> Free medical outreaches</li>
+                                <li class="list-group-item"><i class="fas fa-check text-primary me-2"></i> Referrals for specialized care</li>
+                                <li class="list-group-item"><i class="fas fa-check text-primary me-2"></i> Follow-up care coordination</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="text-center">Treatment Costs</h3>
+                            <h4 class="text-center">You can support ONYX EYE-CARE FOUNDATION on this fight against blindness by selecting any of the categories</h4>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead class="bg-primary text-white">
+                                        <tr>
+                                            <th>Service</th>
+                                            <th>Cost (Naira)</th>
+                                            <th>Impact</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Pair of eyeglasses</td>
+                                            <td>50,000</td>
+                                            <td>Restores clear vision for daily activities</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ophthalmic medications</td>
+                                            <td>25,000</td>
+                                            <td>Treats infections and prevents complications</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cataract surgery</td>
+                                            <td>300,000</td>
+                                            <td>Restores sight for someone blinded by cataracts</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pterygium surgery</td>
+                                            <td>150,000</td>
+                                            <td>Removes growth that can impair vision</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outreach Programs Section -->
+    <section id="outreach" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Our Outreach Programs</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Geographic Coverage</h3>
+                            <p>We have conducted free eye care outreaches in numerous rural communities across Nigeria including:</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>Anambra State</li>
+                                        <li>Enugu State</li>
+                                        <li>Abia State</li>
+                                        <li>Imo State</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>Cross River State</li>
+                                        <li>Rivers State</li>
+                                        <li>Delta State</li>
+                                        <li>Ebonyi State</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p>Our team travels to remote areas where eye care services are virtually non-existent, setting up temporary clinics to examine and treat patients.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Current Challenges</h3>
+                            <p>We currently have many patients on our waiting list with:</p>
+                            <ul>
+                                <li>Hyper-mature bilateral cataracts</li>
+                                <li>Advanced pterygium</li>
+                                <li>Diabetic retinopathy</li>
+                                <li>Other vision-threatening conditions</li>
+                            </ul>
+                            <p>These patients are blind or going blind but cannot afford surgery. Our free outreach programs are their only hope to regain sight.</p>
+                            <div class="alert alert-warning">
+                                <strong>Urgent Need:</strong> We require more resources to clear our backlog of patients waiting for sight-restoring surgeries.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Our Partners</h3>
+                            <p>We collaborate with several organizations to expand our reach and impact:</p>
+                            <div class="row text-center">
+                                <div class="col-6 col-md-3 mb-3">
+                                    <div class="p-3 border rounded bg-light">
+                                        <p class="mb-0 fw-bold">Late Elizabeth Abiamiri Foundation</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 mb-3">
+                                    <div class="p-3 border rounded bg-light">
+                                        <p class="mb-0 fw-bold">Ben & Victoria Ononeze Foundation</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 mb-3">
+                                    <div class="p-3 border rounded bg-light">
+                                        <p class="mb-0 fw-bold">Health and Mission International</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 mb-3">
+                                    <div class="p-3 border rounded bg-light">
+                                        <p class="mb-0 fw-bold">Dozie Nwankwo Foundation</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 mb-3">
+                                    <div class="p-3 border rounded bg-light">
+                                        <p class="mb-0 fw-bold">AM Project</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3 mb-3">
+                                    <div class="p-3 border rounded bg-light">
+                                        <p class="mb-0 fw-bold">Imo State University Teaching Hospital</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="container py-4">
+                <ul class="nav nav-pills nav-tabs" id="galleryTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="workers-tab" data-bs-toggle="tab" data-bs-target="#workers" type="button" role="tab">Workers</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="outreach-tab" data-bs-toggle="tab" data-bs-target="#reach" type="button" role="tab" aria-selected="false" tabindex="0">Outreach</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="eyecheck-tab" data-bs-toggle="tab" data-bs-target="#eyecheck" type="button" role="tab" aria-selected="false" tabindex="0">Eyecheck</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content py-4" id="pills-tabContent">
+                    <!-- Workers Tab -->
+                    <div class="tab-pane fade show active" id="workers" role="tabpanel" aria-labelledby="workers" tabindex="0">
+                        <div class="row g-3" id="workers-gallery">
+                            <!-- First 4 worker images (visible by default) -->
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/workers1.jpg" class="card-img-top gallery-img" alt="Worker 1">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/workers2.jpg" class="card-img-top gallery-img" alt="Worker 2">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/workers3.jpg" class="card-img-top gallery-img" alt="Worker 3">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/workers4.jpg" class="card-img-top gallery-img" alt="Worker 4">
+                                </div>
+                            </div>
+                            
+                            <!-- Additional worker images (hidden by default) -->
+                            <div class="col-md-4 col-lg-3 extra">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/workers5.jpg" class="card-img-top gallery-img" alt="Worker 5">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3 extra">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/workers6.jpg" class="card-img-top gallery-img" alt="Worker 6">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3 extra">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/workers7.jpg" class="card-img-top gallery-img" alt="Worker 7">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn btn-outline-primary view-more-btn" onclick="toggleImages('workers', this)">View More</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Outreach Tab -->
+                    <div class="tab-pane fade" id="reach" role="tabpanel" aria-labelledby="outreach" tabindex="0">
+                        <div class="row g-3" id="outreach-gallery">
+                            <!-- First 4 outreach images (visible by default) -->
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/outreach1.jpg" class="card-img-top gallery-img" alt="Outreach 1">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/outreach2.jpg" class="card-img-top gallery-img" alt="Outreach 2">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/outreach3.jpg" class="card-img-top gallery-img" alt="Outreach 3">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/outreach4.jpg" class="card-img-top gallery-img" alt="Outreach 4">
+                                </div>
+                            </div>
+                            
+                            <!-- Additional outreach images (hidden by default) -->
+                            <div class="col-md-4 col-lg-3 extra">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/outreach5.jpg" class="card-img-top gallery-img" alt="Outreach 5">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3 extra">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/outreach6.jpg" class="card-img-top gallery-img" alt="Outreach 6">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3 extra">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/outreach7.jpg" class="card-img-top gallery-img" alt="Outreach 7">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3 extra">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/outreach8.jpg" class="card-img-top gallery-img" alt="Outreach 8">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn btn-outline-primary view-more-btn" onclick="toggleImages('outreach', this)">View More</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Eyecheck Tab -->
+                    <div class="tab-pane fade" id="eyecheck" role="tabpanel" aria-labelledby="eyecheck" tabindex="0">
+                        <div class="row g-3" id="eyecheck-gallery">
+                            <!-- First 4 eyecheck images (visible by default) -->
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/eyecheck1.jpg" class="card-img-top gallery-img" alt="Eyecheck 1">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/eyecheck2.jpg" class="card-img-top gallery-img" alt="Eyecheck 2">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/eyecheck3.jpg" class="card-img-top gallery-img" alt="Eyecheck 3">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/eyecheck4.jpg" class="card-img-top gallery-img" alt="Eyecheck 4">
+                                </div>
+                            </div>
+                            
+                            <!-- Additional eyecheck images (hidden by default) -->
+                            <div class="col-md-4 col-lg-3 extra">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/eyecheck5.jpg" class="card-img-top gallery-img" alt="Eyecheck 5">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-3 extra">
+                                <div class="card h-100 shadow-sm">
+                                    <img src="images/eyecheck6.jpg" class="card-img-top gallery-img" alt="Eyecheck 6">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn btn-outline-primary view-more-btn" onclick="toggleImages('eyecheck', this)">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section id="donate" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Support Our Cause</h2>
+            <div class="row">
+                <div class="pricing-column col-md-6">
+                    <div class="card donation-option">
+                        <div class="card-header">
+                            <h3>Eyeglasses</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="price-text">50,000</h2>
+                            <p>Provide a pair of eyeglasses for a patient</p>
+                        <button class="btn btn-lg btn-block btn-outline-primary" data-bs-toggle="modal" data-bs-target="#teamModal1">Donate Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-md-6">
+                    <div class="card donation-option">
+                        <div class="card-header">
+                            <h3>Medications</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="price-text">25,000</h2>
+                            <p>Provide ophthalmic medications for a patient</p>
+                        <button class="btn btn-lg btn-block btn-outline-primary" data-bs-toggle="modal" data-bs-target="#teamModal1">Donate Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-md-6">
+                    <div class="card donation-option">
+                    <div class="card-header">
+                        <h3>Cataract Surgery</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">300,000</h2>
+                        <p>Sponsor cataract surgery for one patient</p>
+                       <button class="btn btn-lg btn-block btn-outline-primary" data-bs-toggle="modal" data-bs-target="#teamModal1">Donate Now</button>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-md-6">
+                    <div class="card donation-option">
+                    <div class="card-header">
+                        <h3>Pterygium Surgery</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">150,000</h2>
+                        <p>Sponsor pterygium surgery for one person</p>
+                       <button class="btn btn-lg btn-block btn-outline-primary" data-bs-toggle="modal" data-bs-target="#teamModal1">Donate Now</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="teamModal1" tabindex="-1" aria-labelledby="teamModalLabel1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content bg-dark text-white">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="teamModalLabel1">Onyx Eye Care Foundation Account Details</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="text-center mb-4">
+                                <img src="images/logo.jpg" alt=Logo" style="width: 100%; height: auto; object-fit: cover;">
+                            </div>
+                            <div class="row">
+                                <div class=" text-center">
+                                    <div class="p-3 border rounded">
+                                        <p class="mb-0"><strong>Bank: </strong>GT Bank</p>
+                                        <p class="mb-0"><strong>Account Name: </strong>Eye-Care Foundation</p>
+                                        <p class="mb-0"><strong>Account Number: </strong>0685390992</p>
+                                    </div>
+                                    <div class="p-3 border rounded">
+                                        <p class="mb-0"><strong>Bank: </strong>Pounds</p>
+                                        <p class="mb-0"><strong>Account Name: </strong>Eye Care Foundation</p>
+                                        <p class="mb-0"><strong>Account Number: </strong>0687760832</p>
+                                    </div>
+                                    <div class="p-3 border rounded ">
+                                        <p class="mb-0"><strong>Bank: </strong>Dollar</p>
+                                        <p class="mb-0"><strong>Account Name: </strong>Eye-Care Foundation</p>
+                                        <p class="mb-0"><strong>Account Number: </strong>0687760825</p>
+                                    </div>
+                                    <div class=" border rounded ">
+                                        <p class="mb-0"><strong>Bank: </strong>Euro</p>
+                                        <p class="mb-0"><strong>Account Name: </strong>Eye-Care Foundation</p>
+                                        <p class="mb-0"><strong>Account Number: </strong>0687760849</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <h5 class="mb-3">Onyx Eye-Care Foundation</h5>
+                            <p class="mb-1"><strong>Bank:</strong> GT Bank</p>
+                            <p class="mb-1"><strong>Account Name:</strong> Eye-Care Foundation</p>
+                            <p class="mb-1"><strong>Account Number: </strong>0685390992</p> -->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h3 class="card-title mb-4">Get In Touch</h3>
+                            <div class="mb-4">
+                                <h2><i class="fas fa-user-md text-primary me-2"></i> Dr. Gemma Oluchi Henry-Ibe</h2>
+                                <p>Founder & Medical Director, Onyx Eye-Care Foundation</p>
+                            </div>
+                            <div class="mb-4">
+                                <h4><i class="fas fa-map-marker-alt text-primary me-2"></i>Our Address</h4>
+                                <p>Suite 202, Accokcoos Plaza along G.U.Ake Road,<br>
+                                By Police Post bus stop, Eliozu,<br>
+                                Obiakpor LGA, PortHarcourt,<br>
+                                Rivers State, Nigeria.</p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1216.5178937202058!2d7.013525673862949!3d4.876730096483142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069d222188b15e5%3A0xebceb20474473b54!2sChief%20G%20U%20Ake%20Road%2C%20Obio%2FAkpor%20500102%2C%20Rivers!5e0!3m2!1sen!2sng!4v1747307247133!5m2!1sen!2sng" width="400" height="300"
+                                 title="Suit 202, Accokcoos Plaza along G.U. Ake Road" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <div class="mb-4">
+                                <h5><i class="fas fa-phone text-primary me-2"></i> Phone Numbers</h5>
+                                <p>Mobile: 08037776866<br>Office: 08105600004</p>
+                            </div>
+                            <div class="mb-4">
+                                <h5><i class="fas fa-envelope text-primary me-2"></i> Email</h5>
+                                <p>gemmaabiamiri@yahoo.com</p>
+                            </div>
+                            <div class="mb-3">
+                                <h5><i class="fas fa-clock text-primary me-2"></i> Office Hours</h5>
+                                <p>Monday - Friday: 9:00 AM - 5:00 PM<br>
+                                Saturday: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4 text-center">Send Us a Message</h3>
+                            <form id="contact-form" method="post">
+                                 <input type="hidden" name="_captcha" value="false">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" name="fullName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" name="emailAddress" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" name="phoneNumber" id="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <select class="form-select" id="subject" name="subject" required>
+                                        <option value="" selected disabled>Select a subject</option>
+                                        <option value="donation">Donation Inquiry</option>
+                                        <option value="volunteer">Volunteer Opportunity</option>
+                                        <option value="partnership">Partnership Inquiry</option>
+                                        <option value="outreach">Request Outreach in Your Community</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                        <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success text-white">
+                                        <h5 class="modal-title" id="thankYouModalLabel">Message Sent</h5>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-center">
+                                        <p>Thank You! Your message has been sent successfully.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+       <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <a class="navbar-brand" href="#">
+                    <img class="logo" src="images/logo.jpg" alt="Logo" height="40px" width="50px">
+                    Onyx Eye-Care Foundation
+                    </a>
+
+                    <p>Restoring sight and transforming lives in rural Nigeria through free eye care services.</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/gemma.henryibe.7" class="text-white me-3" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/gemmaibe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-white me-3" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <h3>Quick Links</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-white">Home</a></li>
+                        <li class="mb-2"><a href="#about" class="text-white">About Us</a></li>
+                        <li class="mb-2"><a href="#services" class="text-white">Our Services</a></li>
+                        <li class="mb-2"><a href="#outreach" class="text-white">Outreach Programs</a></li>
+                        <li class="mb-2"><a href="#gallery" class="text-white">Gallery</a></li>
+                        <li class="mb-2"><a href="#donate" class="text-white">Donate</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <p>Contact Info</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Port Harcourt, Nigeria</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> 08037776866</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> gemmaabiamiri@yahoo.com</li>
+                        <li><i class="fas fa-certificate me-2"></i> CAC Reg: 46241</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to receive updates on our programs and events</p>
+                    <form class="mb-2">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                    <p class="small">We respect your privacy. Unsubscribe at any time.</p>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="row">
+                <div class="col-12 footer-center">
+                    <p class="mb-0">©<span id="year"></span> Onyx Eye-Care Foundation. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
